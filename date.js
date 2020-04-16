@@ -1,4 +1,4 @@
-console.log("Am I connected?");
+// console.log("Am I connected?");
 
 function displayDate(){
     var date = new Date();
