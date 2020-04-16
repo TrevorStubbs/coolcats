@@ -1,8 +1,6 @@
 // draws a cat
 
-function setup() {
-
-    
+function setup() {    
     // var cnv = createCanvas(100, 100);
     // var x = (windowWidth - width) / 2;
     // var y = (windowHeight - height) / 2;
@@ -14,14 +12,25 @@ function setup() {
     canvas.parent("sketchHolder");
     background(220);
 
-
-  
     // ears
     triangle(58, 25, 72, 34, 80, 10);
     triangle(42, 25, 28, 34, 20, 10);
   
     // head
     ellipse(50, 50, 60, 60);
+    
+    //nose
+    ellipse(50, 50,5,5);
+    
+    //left eye
+    ellipse(40, 40, 10,10);
+    
+    //right eye
+    ellipse(60, 40, 10,10);
+    
+    //mouth
+    line(50,55,50,60);
+    arc(50, 50, 40, 40, 0, PI);
   
     // right whiskers
     line(70, 50, 90, 50);
@@ -30,5 +39,5 @@ function setup() {
     // left whiskers
     line(30, 50, 10, 50);
     line(30, 45, 10, 37);
-    line(30, 55, 10, 63);
+    line(30, 55, 10, 63); 
   }
