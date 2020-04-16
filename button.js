@@ -1,7 +1,7 @@
-console.log("I am working?");
+// console.log("I am working?");
 
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    document.getElementById("demo").innerHTML = "Growl!!!!!";
   }
 
 function gotoPerson(){
