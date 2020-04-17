@@ -71,6 +71,7 @@ function guessGame(){
     alert("Thank\'s for playing but you could not guess my number.")
 }
 
+
 catQuestion();
 displayDate();
 ageQuestion();
